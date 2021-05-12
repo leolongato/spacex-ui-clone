@@ -1,0 +1,19 @@
+.item {
+  @apply flex flex-col;
+}
+
+.item-title {
+  @apply self-center mt-4 text-sm font-semibold tracking-wider text-center uppercase;
+}
+
+.item-price {
+  @apply self-center text-sm font-semibold tracking-wider uppercase;
+}
+
+.item-images {
+  @apply relative flex flex-col;
+}
+
+.image-2 {
+  @apply absolute z-10 duration-300 ease-in-out transform opacity-0 cursor-pointer hover:opacity-100;
+}

@@ -1,0 +1,38 @@
+.AnnouncementBar {
+  @apply relative z-10 grid p-3 text-xs tracking-widest text-center text-white uppercase bg-black h-14 place-items-center;
+}
+
+.overflow {
+  @apply overflow-hidden;
+}
+
+.shop-spacex-title-div {
+  @apply absolute z-10 grid w-full place-items-center;
+}
+.shop-spacex-title {
+  @apply text-2xl font-medium text-white uppercase md:text-5xl;
+}
+
+.wallpaper-div {
+  @apply relative flex flex-col justify-center;
+}
+
+.items-section {
+  @apply flex flex-col items-center my-8 lg:my-20;
+}
+
+.items {
+  @apply grid w-auto h-auto grid-cols-2 gap-5 m-4;
+}
+
+.items-title {
+  @apply self-center mb-8 text-2xl font-semibold tracking-widest uppercase;
+}
+
+.button-section {
+  @apply grid place-items-center;
+}
+
+.categories-section {
+  @apply flex flex-col items-center justify-center m-3 mt-20 md:m-0 md:w-full md:flex-row md:flex-wrap md:h-categories lg:h-auto lg:flex-nowrap;
+}
