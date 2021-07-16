@@ -34,5 +34,5 @@
 }
 
 .categories-section {
-  @apply flex flex-col items-center justify-center m-3 mt-20 md:m-0 md:w-full md:flex-row md:flex-wrap md:h-categories lg:h-auto lg:flex-nowrap;
+  @apply flex flex-col items-center justify-center m-3 mt-20 md:m-0 md:mt-20 md:w-full md:flex-row md:flex-wrap md:h-categories lg:h-auto lg:flex-nowrap;
 }

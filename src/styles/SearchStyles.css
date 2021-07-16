@@ -1,9 +1,9 @@
 .search-div {
-  @apply absolute left-0 z-0 flex items-center w-full px-6 transition duration-300 ease-in-out transform bg-white opacity-0 md:px-12 top-20 py-7;
+  @apply absolute left-0 z-0 flex items-center w-full px-6 transition duration-300 ease-in-out transform bg-white opacity-0 pointer-events-none md:px-12 top-20 py-7;
 }
 
 .search-div-open {
-  @apply opacity-100;
+  @apply opacity-100 pointer-events-auto;
 }
 
 .search-input {

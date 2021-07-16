@@ -39,7 +39,7 @@
 }
 
 .iconClose {
-  @apply mb-5 text-gray-500 xl:hidden;
+  @apply mb-5 text-gray-500 mt-14 xl:hidden;
 }
 
 .iconPlus {

@@ -6,6 +6,7 @@ import "../styles/IndexStyles.css";
 import "../styles/ItemStyles.css";
 import "../styles/ItemCategoryStyles.css";
 import "../styles/ButtonStyles.css";
+import "../styles/FooterStyles.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

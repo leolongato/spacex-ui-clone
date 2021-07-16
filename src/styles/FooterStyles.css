@@ -1,0 +1,15 @@
+.container-footer {
+  @apply grid grid-rows-2 py-8 bg-black place-items-center;
+}
+
+.footer-list {
+  @apply flex items-center h-full w-96 justify-evenly;
+}
+
+.footer-list-item {
+  @apply text-white cursor-pointer hover:text-gray-500;
+}
+
+.spacex-title {
+  @apply mt-12 text-sm text-gray-500;
+}

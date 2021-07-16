@@ -4,6 +4,7 @@ import Header from "../components/Header";
 import Item from "../components/Item";
 import ItemCategory from "../components/ItemCategory";
 import CustomButton from "../components/Button";
+import Footer from "../components/Footer";
 
 const Home: React.FC = () => {
   return (
@@ -49,6 +50,7 @@ const Home: React.FC = () => {
         <ItemCategory srcMain="/mens-shirt.png" title="MEN'S" />
         <ItemCategory srcMain="/notepad-nasa.png" title="ACCESSORIES" />
       </div>
+      <Footer />
     </div>
   );
 };
